@@ -1,0 +1,46 @@
+body
+{
+background-color:white;
+overflow-x:hidden;
+
+#logo{
+width:50%;
+height:20%;
+}
+li{
+display:inline-block;
+padding:20px;
+font-size:15px;
+margin-right:50px;
+color:black;
+}
+ul{
+float:right;	
+}
+}
+#slideshow
+{
+	height=500px;
+	width=100%;
+	overflow-x:hidden;
+}
+
+.slide-wrapper{
+	width:250%;
+	margin:0px;
+	position:relative;
+	animation-name:slide;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+}
+
+.slide-number{
+	width:20%;
+	height:350px;
+}
+
+@keyframes slide{
+	0%{margin-left:0%;}
+	50%{margin-left:-100%;}
+	100%{margin-left:-200%;}
+}

@@ -1,0 +1,202 @@
+* {box-sizing: border-box;}
+p{font-family:sans-serif;}
+ center{font-family:Tw Cen MT Condensed;}
+           /*nav*/
+body { 
+  margin: 0;
+  overflow-x:hidden;
+}
+#logo1{
+width:50%;
+height:20%;
+}
+li{
+display:inline-block;
+padding:15px;
+font-size:15px;
+margin-right:40px;
+color:black;
+}
+ul{
+float:right;	
+}
+
+#struct
+{
+	margin:1px auto;
+	position:relative;
+	width:100%;
+	height:50%;
+}
+
+.heading
+{
+	color:aqua;
+	position:absolute;
+	top:60%;
+	width:100%;
+	text-align:center;
+	font-size:40px;
+	text-shadow:5px 5px 10px;
+}
+	
+.box
+{
+	display:flex;
+    width:100%;
+	height:500px;
+	justify-content:flex-end;
+	flex-wrap:no wrap;
+}
+
+.first
+{
+	background-color:white;
+	flex-basis:50%;
+}
+
+.second
+{
+	
+	background-color:white;
+	flex-basis:50%;
+	flex-wrap:nowrap;
+	
+}
+
+.button
+{
+	background-color:lightgrey;
+	border-color:orange;
+	border:5px solid;
+}
+
+#mubuild
+{
+	width=100%;
+	height=50%;
+	float:right;
+	border:2px solid-black;
+}
+
+
+.column{
+  float: left;
+  width: 33%;
+  padding: 0 5px;
+  
+  box-sizing:border-box;
+}
+
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.Courses{
+ margin-left:16px;
+  padding: 6px;
+  text-align: center;
+  background-color: aqua;
+   margin-bottom: 20px;
+  }
+
+
+
+
+
+.button1
+{
+	background-color:lightgrey;
+	text-align:center;
+	border:1px solid;
+}
+
+
+
+
+.button2
+{
+	background-color:lightgrey;
+	text-align:center;
+	border:1px solid;
+}
+
+
+
+
+
+
+
+.button3
+{
+	background-color:lightgrey;
+	
+	text-align:center;
+	border:1px solid;
+}
+#sci{
+    
+	width:100%;
+	height:50%;
+}
+
+#com{
+	width:100%;
+	height:50%;
+}
+
+#art{
+	width:100%;
+	height:50%;
+}
+
+@media screen and (max-width:992px)
+{
+	.parent1
+	{
+		display:flex;
+		flex-wrap:wrap;
+		width:100%;
+		
+	}	
+
+	.child1
+	{
+		flex-basis:100%;
+		height:auto;
+	}
+	li{display:block;}
+	
+		
+
+}
+
+#pa{
+	display:flex;
+	width:100%;
+	
+}
+
+#ch1{
+	flex-basis:50%;
+}
+#ch2{
+	flex-basis:50%;
+	text-align:right;
+	font-size:18px;
+}

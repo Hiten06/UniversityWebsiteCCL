@@ -1,0 +1,20 @@
+body
+{
+ background-color:aqua;
+ overflow-x:hidden;
+}
+
+#camp1
+{
+ width:70%
+ height:70%;
+ }
+ 
+ #back1
+ {
+	 background-color:lightgrey;
+	 border-color:green;
+	 border:1px solid;
+ }
+ 
+ 
