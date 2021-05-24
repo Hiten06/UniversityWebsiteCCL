@@ -3,7 +3,7 @@ $Username = $_POST['Name'];
 $Emailid = $_POST['EmailId'];
 $Queries = $_POST['Queries'];
 
-$conn =new mysqli('remotemysql.com','N81ga1seT5',' 9oHQnd2ABe','N81ga1seT5');
+$conn =new mysqli('remotemysql.com','N81ga1seT5','','N81ga1seT5');
 
 if($conn->connect_error){
 	die('connection failed:'.$conn->connect_error);
